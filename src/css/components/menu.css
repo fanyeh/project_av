@@ -1,0 +1,8 @@
+.menu {
+  transform: translateY(-100%);
+  transition: transform 500ms;
+}
+
+.menu.slide {
+  transform: translateY(0);
+}

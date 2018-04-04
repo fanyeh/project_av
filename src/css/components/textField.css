@@ -1,0 +1,15 @@
+.textField {
+  border: 0;
+  background: none;
+  border-bottom: 1px solid gray;
+  flex: 0 0 45%;
+  transition: border-bottom 300ms;
+}
+
+.textField:focus {
+  outline: none;
+}
+
+.textField:last-of-type {
+  flex: 1;
+}

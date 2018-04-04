@@ -1,0 +1,7 @@
+.homeCardHeader {
+  transition: transform 300ms;
+}
+
+.hover .homeCardHeader {
+  transform: translateY(-50px);
+}

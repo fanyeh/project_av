@@ -1,0 +1,7 @@
+.footerMenu > li {
+  transition: color 300ms;
+}
+
+.footerMenu > li:hover {
+  color: red;
+}

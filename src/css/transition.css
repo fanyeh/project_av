@@ -1,0 +1,19 @@
+.slide-enter {
+  transform: translateX(100%);
+  position: absolute;
+}
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms 300ms ease-in;
+}
+
+.slide-exit {
+  transform: translateX(0);
+  position: absolute;
+}
+
+.slide-exit.slide-exit-active {
+  transform: translateX(-100%);
+  transition: transform 250ms ease-in;
+}

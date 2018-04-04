@@ -1,0 +1,16 @@
+.blogCardDesc {
+  transition: all 300ms;
+}
+
+.hover .blogCardDesc {
+  background-color: #e7040f;
+  color: white;
+}
+
+.blogCardImg {
+  transition: transform 300ms;
+}
+
+.hover .blogCardImg {
+  transform: scale(1.2);
+}

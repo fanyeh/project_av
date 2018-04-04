@@ -1,0 +1,15 @@
+.homeCardText {
+  --popTextDist: 20px;
+  will-change: transform, opacity;
+  transition: transform 300ms, opacity 300ms;
+  transform: scale(0);
+  top: var(--popTextDist);
+  bottom: var(--popTextDist);
+  left: var(--popTextDist);
+  right: var(--popTextDist);
+}
+
+.hover .homeCardText {
+  transform: scale(1);
+  opacity: 1;
+}

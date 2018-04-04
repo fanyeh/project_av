@@ -1,0 +1,17 @@
+.menuIcon > div {
+  width: 30px;
+  height: 3px;
+  will-change: transoform, opacity;
+  transition: transform 300ms, opacity 300ms, color 200ms;
+}
+
+.toggleMenu.menuIcon div:nth-child(1) {
+  transform: translateY(7px) rotate(-45deg);
+}
+.toggleMenu.menuIcon div:nth-child(2) {
+  transform: translateX(-56px);
+  opacity: 0;
+}
+.toggleMenu.menuIcon div:nth-child(3) {
+  transform: translateY(-7px) rotate(45deg);
+}

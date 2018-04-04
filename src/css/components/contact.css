@@ -1,0 +1,8 @@
+.contact > i {
+  transition: color 300ms;
+  cursor: pointer;
+}
+
+.contact > i:hover {
+  color: #e7040f;
+}

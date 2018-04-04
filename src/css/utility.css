@@ -1,0 +1,46 @@
+.abs-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.v-center {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.h-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.transition {
+  transition: all 300ms;
+}
+
+.mv-center {
+  margin: auto 0;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.vh-40 {
+  height: 40vh;
+}
+
+.itemHeight {
+  height: 25vw;
+}
+
+.max-vh-50 {
+  max-height: 50vh;
+}
+
+.w-49 {
+  width: 49%;
+}

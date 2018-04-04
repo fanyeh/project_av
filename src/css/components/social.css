@@ -1,0 +1,7 @@
+.social > i {
+  transition: background-color 300ms;
+}
+
+.social > i:hover {
+  background-color: red;
+}
