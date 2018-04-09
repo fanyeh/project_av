@@ -1,7 +1,20 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const styles = ['relative', 'z-2', 'pv3', 'ph5', 'blogCardDesc', 'tl', 'f4', 'fw7'];
+const styles = [
+  'relative',
+  'z-2',
+  'pv3',
+  'ph4-l',
+  'ph1',
+  'blogCardDesc',
+  'tl',
+  'f4-m',
+  'f4-l',
+  'f6',
+  'fw7-ns',
+  'fw5',
+];
 
 const BlogCardDesc = () => {
   return (

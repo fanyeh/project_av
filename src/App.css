@@ -2,3 +2,22 @@
 @import './css/transition.css';
 @import './css/element.css';
 @import './css/components.css';
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .flexBox {
+    width: 90%;
+  }
+
+  .introHeader {
+    margin-top: 0.25em;
+    font-size: 5.5em;
+  }
+
+  .introSubtitle {
+    font-size: 2.5em;
+  }
+
+  .navBar {
+    width: 90%;
+  }
+}

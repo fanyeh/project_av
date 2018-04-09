@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-const iconStyles = ['pa3', 'ma3', 'bg-moon-gray', 'white', 'br-100', 'f4', 'cp', 'fab'];
+const iconStyles = ['pa3-ns', 'pa2', 'ma3', 'bg-moon-gray', 'white', 'br-100', 'f4', 'cp', 'fab'];
 
 const Social = props => {
   return (

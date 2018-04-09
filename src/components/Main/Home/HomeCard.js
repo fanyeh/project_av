@@ -4,7 +4,7 @@ import withHover from '@common/withHover';
 import HomeCardHeader from './HomeCardHeader';
 import HomeCardText from './HomeCardText';
 
-const styles = ['w-100', 'relative', 'mb1'];
+const styles = ['w-100', 'relative', 'mb4'];
 
 class HomeCard extends Component {
   render() {

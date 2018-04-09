@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import withMenuItem from '@common/withMenuItem';
 
-const styles = ['mb4', 'f2', 'fw7', 'ttc', 'no-underline', 'menuItem'];
+const styles = ['mb4', 'f2-ns', 'f3', 'fw7', 'ttc', 'no-underline', 'menuItem'];
 
 class MenuItem extends Component {
   render() {

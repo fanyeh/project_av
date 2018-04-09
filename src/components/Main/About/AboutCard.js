@@ -2,7 +2,17 @@ import React, { Component } from 'react';
 import Mask from '@common/Mask';
 import withHover from '@common/withHover';
 import AboutCardName from './AboutCardName';
-const styles = ['w-30', 'aboutCardHeight', 'bg-white', 'relative', 'overflow-hidden'];
+const styles = [
+  'w-30-l',
+  'w-100',
+  'aboutCardHeight',
+  'bg-white',
+  'relative',
+  'overflow-hidden',
+  'mb3',
+  'mb4-m',
+  'mb0-l',
+];
 
 class AboutCard extends Component {
   render() {

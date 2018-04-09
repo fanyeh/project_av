@@ -3,7 +3,19 @@ import classNames from 'classnames';
 import MenuIcon from './MenuIcon';
 import Menu from './Menu';
 
-const styles = ['w-60', 'center', 'ph2', 'flex', 'justify-between', 'items-center', 'pb4', 'pt5'];
+const Styles = [
+  'w-90',
+  'w-80-m',
+  'w-60-l',
+  'center',
+  'flex',
+  'justify-between',
+  'items-center',
+  'pb4',
+  'pt4-ns',
+  'pt2',
+  'navBar',
+];
 
 class NavBar extends Component {
   constructor(props) {
@@ -30,8 +42,8 @@ class NavBar extends Component {
 
   render() {
     return (
-      <nav className={classNames(styles)} ref="nav">
-        <div className="f1 ">AV</div>
+      <nav className={classNames(Styles)} ref="nav">
+        <div className="f3 f2-m f1-l">AV</div>
         <MenuIcon onClick={this.toggleMenu} open={this.state.showMenu} />
         <Menu items={this.props.items} show={this.state.showMenu} />
       </nav>

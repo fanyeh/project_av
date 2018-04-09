@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const styles = ['flex', 'flex-column', 'pt2', 'pb6'];
+const styles = ['flex', 'flex-column'];
 
 function FlexColumn(props) {
   const classes = classNames(styles, props.className);

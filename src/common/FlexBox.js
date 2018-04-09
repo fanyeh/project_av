@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 
-const styles = ['flex', 'w-60', 'center'];
+const styles = [
+  'flex',
+  ' w-60-l',
+  'w-80-m',
+  'w-90',
+  'center',
+  'flex-column',
+  'flex-row-l',
+  'flexBox',
+];
 
 class FlexBox extends Component {
   render() {

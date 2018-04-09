@@ -13,3 +13,14 @@
   transform: scale(1);
   opacity: 1;
 }
+
+@media screen and (max-width: 30em) {
+  .homeCardText {
+    --popTextDist: 4px;
+  }
+
+  .homeCardText > h1 {
+    font-weight: 200;
+    font-size: 12px;
+  }
+}

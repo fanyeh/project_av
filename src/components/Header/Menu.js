@@ -8,7 +8,7 @@ class Menu extends Component {
   render() {
     return (
       <div className={classNames(styles, { slide: this.props.show })}>
-        <div className="w-60 center tc mt7 relative z-999">
+        <div className="w-60 center tc mt7-ns mt6 relative z-999">
           {this.props.items.map(item => <MenuItem item={item} key={item} />)}
         </div>
       </div>

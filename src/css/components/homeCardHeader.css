@@ -5,3 +5,14 @@
 .hover .homeCardHeader {
   transform: translateY(-50px);
 }
+
+@media screen and (max-width: 30em) {
+  .hover .homeCardHeader {
+    transform: translateY(-30px);
+  }
+
+  .homeCardHeader {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
